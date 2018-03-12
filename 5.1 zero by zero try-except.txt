@@ -1,0 +1,14 @@
+x = input ("enter first number: \n")
+x = int(x)
+y = input ("enter second number: \n")
+y = int(y)
+
+def Division (a, b):
+  try:
+    z = a / b
+    print(z)
+  except ZeroDivisionError:
+    print ("trying to divide a number by 0")
+
+Division (x,y)
+      
